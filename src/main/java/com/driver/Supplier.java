@@ -9,6 +9,7 @@ public class Supplier {
 
     public Supplier(String name, String address) {
     	// your code goes here
+        this.name = name;
     }
 
     public int getId() {
@@ -18,6 +19,7 @@ public class Supplier {
 
     public void setId(int id) {
     	// your code goes here
+        this.id = id;
     }
 
     public String getName() {
@@ -27,6 +29,7 @@ public class Supplier {
 
     public void setName(String name) {
     	// your code goes here
+        this.name = name;
     }
 
     public String getAddress() {
@@ -36,5 +39,6 @@ public class Supplier {
 
     public void setAddress(String address) {
     	// your code goes here
+        this.address = address;
     }
 }
